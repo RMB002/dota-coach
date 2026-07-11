@@ -1,0 +1,6 @@
+{
+  "name": "Dota 2 Match Analyzer",
+  "description": "A dashboard to track and analyze your Dota 2 match performance using STRATZ API and Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
