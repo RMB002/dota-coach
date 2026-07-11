@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { MOCK_MATCH_HISTORY, HEROES } from "@/lib/stratz-helpers";
 
+export const runtime = 'edge';
+
 // A GraphQL query to fetch player matches from STRATZ
 const STRATZ_GRAPHQL_QUERY = `
   query($accountId: Long!) {
